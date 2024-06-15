@@ -4,13 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2493d95e-2f03-444d-91a2-52986995cd68" name="更改" comment="">
-      <change afterPath="$PROJECT_DIR$/mybatis-base-HeloWorld/src/main/java/com/hrc/mapper/EmployeeMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mybatis-base-HeloWorld/src/main/java/com/hrc/pojo/Employee.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mybatis-base-HeloWorld/src/main/resources/mappers/EmployeeMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mybatis-base-HeloWorld/src/main/resources/mybatis-config.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mybatis-base-HeloWorld/src/test/java/TestMybatis.java" afterDir="false" />
-    </list>
+    <list default="true" id="2493d95e-2f03-444d-91a2-52986995cd68" name="更改" comment="mybatis第一个入门模块学习完毕源码提交" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -68,6 +62,15 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\WorkSpace\MyProject\JavaProject\Idea_Project\mybatis\mybatis-base-HeloWorld\src\main\resources\mappers" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\WorkSpace\MyProject\JavaProject\Idea_Project\mybatis\mybatis-base-HeloWorld\src\main\resources" />
+      <recent name="D:\WorkSpace\MyProject\JavaProject\Idea_Project\mybatis\mybatis-base-HeloWorld\src\main\resources\mappers " />
+    </key>
+  </component>
   <component name="RunManager">
     <configuration name="TestMybatis.tesEmployee" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="mybatis-base-HeloWorld" />
@@ -100,11 +103,24 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1718456795024</updated>
-      <workItem from="1718456796156" duration="2522000" />
+      <workItem from="1718456796156" duration="2758000" />
     </task>
+    <task id="LOCAL-00001" summary="mybatis第一个入门模块学习完毕源码提交">
+      <option name="closed" value="true" />
+      <created>1718460661678</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1718460661678</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="mybatis第一个入门模块学习完毕源码提交" />
+    <option name="LAST_COMMIT_MESSAGE" value="mybatis第一个入门模块学习完毕源码提交" />
   </component>
 </project>

@@ -10,6 +10,8 @@
     <packaging>pom</packaging>
     <modules>
         <module>mybatis-base-HeloWorld</module>
+        <module>mybatis-base-param-input-02</module>
+        <module>mybatis-base-result-output-03</module>
     </modules>
 
     <properties>
@@ -38,6 +40,13 @@
             <groupId>org.junit.jupiter</groupId>
             <artifactId>junit-jupiter-api</artifactId>
             <version>5.3.1</version>
+        </dependency>
+
+        <!-- https://mvnrepository.com/artifact/org.slf4j/slf4j-api -->
+        <dependency>
+            <groupId>org.slf4j</groupId>
+            <artifactId>slf4j-api</artifactId>
+            <version>2.0.13</version>
         </dependency>
     </dependencies>
 

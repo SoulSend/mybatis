@@ -4,7 +4,24 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2493d95e-2f03-444d-91a2-52986995cd68" name="更改" comment="mybatis第一个入门模块学习完毕源码提交" />
+    <list default="true" id="2493d95e-2f03-444d-91a2-52986995cd68" name="更改" comment="mybatis第一个入门模块学习完毕源码提交">
+      <change afterPath="$PROJECT_DIR$/mybatis-base-param-input-02/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybatis-base-param-input-02/src/main/java/com/hrc/mapper/EmployeeMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybatis-base-param-input-02/src/main/java/com/hrc/pojo/Employee.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybatis-base-param-input-02/src/main/resources/mappers/EmployeeMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybatis-base-param-input-02/src/main/resources/mybatis-config.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybatis-base-param-input-02/src/test/java/TestMybatis.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybatis-base-result-output-03/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybatis-base-result-output-03/src/main/java/com/hrc/mappers/EmployeeMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybatis-base-result-output-03/src/main/java/com/hrc/pojo/Employee.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybatis-base-result-output-03/src/main/resources/mappers/EmployeeMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybatis-base-result-output-03/src/main/resources/mybatis-config.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybatis-base-result-output-03/src/test/java/TestOutPutResult.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -14,6 +31,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Class" />
+        <option value="mappser" />
       </list>
     </option>
   </component>
@@ -32,11 +50,13 @@
       </MavenGeneralSettings>
     </option>
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 7
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 7
+}</component>
   <component name="ProjectId" id="2huvUJp7E0ewCpmNCr4NHNGwA7l" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -44,12 +64,14 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "JUnit.TestMybatis.tesEmployee.executor": "Run",
+    "JUnit.TestMybatis.testInput.executor": "Run",
+    "JUnit.TestOutPutResult.testResult.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "main",
     "jdk.selected.JAVA_MODULE": "17",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "D:/WorkSpace/MyProject/JavaProject/Idea_Project/mybatis/mybatis-base-HeloWorld/src/main/resources/mappers",
+    "last_opened_file_path": "D:/WorkSpace/MyProject/JavaProject/Idea_Project/mybatis/mybatis-base-result-output-03/src/main/java/com/hrc/pojo",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -58,20 +80,26 @@
     "project.structure.last.edited": "模块",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "MavenSettings",
+    "settings.editor.selected.configurable": "fileTemplates",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\WorkSpace\MyProject\JavaProject\Idea_Project\mybatis\mybatis-base-result-output-03\src\main\java\com\hrc\pojo" />
+      <recent name="D:\WorkSpace\MyProject\JavaProject\Idea_Project\mybatis\mybatis-base-result-output-03\src\main\java\com\hrc" />
       <recent name="D:\WorkSpace\MyProject\JavaProject\Idea_Project\mybatis\mybatis-base-HeloWorld\src\main\resources\mappers" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\WorkSpace\MyProject\JavaProject\Idea_Project\mybatis\mybatis-base-HeloWorld\src\main\resources" />
       <recent name="D:\WorkSpace\MyProject\JavaProject\Idea_Project\mybatis\mybatis-base-HeloWorld\src\main\resources\mappers " />
     </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.hrc.mappers" />
+      <recent name="com.hrc.pojo" />
+    </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="JUnit.TestOutPutResult.testResult">
     <configuration name="TestMybatis.tesEmployee" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="mybatis-base-HeloWorld" />
       <option name="PACKAGE_NAME" value="" />
@@ -82,8 +110,41 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="TestMybatis.testInput" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="mybatis-base-param-input-02" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="TestMybatis" />
+      <option name="METHOD_NAME" value="testInput" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestOutPutResult.testResult" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="mybatis-base-result-output-03" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="TestOutPutResult" />
+      <option name="METHOD_NAME" value="testResult" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="JetRunConfigurationType">
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
+      <option name="filePath" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.TestOutPutResult.testResult" />
+        <item itemvalue="JUnit.TestMybatis.testInput" />
         <item itemvalue="JUnit.TestMybatis.tesEmployee" />
       </list>
     </recent_temporary>
@@ -104,6 +165,9 @@
       <option name="presentableId" value="Default" />
       <updated>1718456795024</updated>
       <workItem from="1718456796156" duration="2758000" />
+      <workItem from="1718525865691" duration="1959000" />
+      <workItem from="1718626250360" duration="1588000" />
+      <workItem from="1718628733081" duration="1612000" />
     </task>
     <task id="LOCAL-00001" summary="mybatis第一个入门模块学习完毕源码提交">
       <option name="closed" value="true" />

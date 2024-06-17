@@ -6,6 +6,9 @@
     <settings>
         <setting name="logImpl" value="SLF4J"/>
     </settings>
+    <typeAliases>
+        <package name="com.hrc"/>
+    </typeAliases>
 
     <!-- environments表示配置Mybatis的开发环境，可以配置多个环境，在众多具体环境中，使用default属性指定实际运行时使用的环境。default属性的取值是environment标签的id属性的值。 -->
     <environments default="development">

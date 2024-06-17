@@ -10,4 +10,17 @@
         t_emp where emp_id = #{id}
     </select>
 
+    <select id="queryIdByName" resultType="int">
+        select emp_id from t_emp where emp_name=#{n}
+    </select>
+    <select id="queryByNameAndId" resultType="Employee">
+        select emp_id empId,emp_name empName, emp_salary empSalary from
+        t_emp where emp_id = #{id} and emp_name=#{name}
+    </select>
+    <insert id="insertEmp" >
+        insert into t_emp values(#{empId},#{empName},#{empSalary})
+    </insert>
+    <update id="updateEmp">
+        update t_emp set emp_name=#{name} ,emp_salary=#{salary} where emp_id=#{id};
+    </update>
 </mapper>
